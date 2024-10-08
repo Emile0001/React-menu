@@ -1,3 +1,4 @@
+import { Menu } from "./components/Menu";
 import { Title } from "./components/Title";
 
 const App = () => {
@@ -6,6 +7,9 @@ const App = () => {
             <section>
                 <Title title={"our menu"} />
             </section>
+            <article>
+                <Menu />
+            </article>
         </main>
     );
 };
